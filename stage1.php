@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keyword" content="website, project">
+    <meta name="author" content="obasi uche">
+    <title> HNG internship | welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Robotocondensed">
+  </head>
+  <body>
+    <div class="oval"></div>
+    <p>welcome to the HNG internship!</p>
+    <?php
+    //dynamic clock
+    echo date("l jS \of F Y") . "<br>";
+    echo date("h:i:s A");
+    ?>
+
+  </body>
+</html>
